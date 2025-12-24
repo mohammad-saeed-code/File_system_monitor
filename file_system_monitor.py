@@ -160,12 +160,12 @@ def logging(file_object,message=''):
 
 
 def send_notifications(message, recipient):
-    from_email = "jackloffy@gmail.com"
+    from_email = "add your email here"
     to_emails = [recipient]
     smtp_server = "smtp.gmail.com"
     smtp_port = 587
     smtp_user = "add your gmail account here"
-    smtp_password = ""  # add your password here please note your normal gmail password wont work add you need to create a gmail access password
+    smtp_password = ""  # add your password here please note your normal gmail password wont work you need to create a gmail access password
     subject = "File Change Notification"
 
     msg = MIMEMultipart()
